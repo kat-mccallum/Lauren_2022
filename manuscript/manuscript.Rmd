@@ -1,0 +1,46 @@
+---
+title: "my_manuscript"
+author: "Lauren Gill"
+date: "15/09/2022"
+
+# format for ecology letters
+geometry: margin = 1in
+header-includes: 
+- \line-numbers
+
+output: pdf_document
+
+csl: https://www.zotero.org/styles/ecology-letters
+bibliography: references.bib 
+#link the bib file here
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(palmerpenguins)
+```
+
+Title: The title of my paper
+
+First Authour^1^, Second Authour ^2\*^
+
+# Abstract
+
+# Introduction
+
+# Methods
+
+# Results
+
+# Discussion
+
+# References
+
+# Tables
+
+# Figures
+
+# Figure Captions
+
+# Appendices
